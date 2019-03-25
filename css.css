@@ -1,4 +1,7 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     width: 90%;
@@ -7,19 +10,27 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+header {
+    margin-bottom: 40px;
+}
+
 .logo {
    float: left;
-    transform: scale(0.5);
-    display: inline-block;
+    position: fixed;
+    width: 10em;
+    margin-left: 25px;
+   
 }
 
 h1 {
-    display: inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-size: 3em;
-
+    float: inherit;
+    padding-top: 45px;
+    
 }
 
 
@@ -37,6 +48,10 @@ h2 {
 
 .menubtn {
     margin-bottom: 1em;
+}
+
+.menubtn:hover {
+    transform: scale(1.2)
 }
 
 .tekstboks {
