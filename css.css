@@ -1,0 +1,47 @@
+
+
+body {
+    width: 90%;
+    background-color: whitesmoke;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logo {
+   float: left;
+    transform: scale(0.5);
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 3em;
+
+}
+
+
+
+.menu {
+    width: 20%;
+    margin-left: 2em;
+    position: fixed;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+
+.menubtn {
+    margin-bottom: 1em;
+}
+
+.tekstboks {
+    width: 70%;
+    height: 50em;
+    float: right;
+    font-size: 1em;
+}
