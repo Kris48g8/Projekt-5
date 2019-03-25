@@ -3,6 +3,8 @@
     padding: 0px;
 }
 
+/* Template for forside */
+
 body {
     width: 90%;
     background-color: whitesmoke;
@@ -12,6 +14,7 @@ body {
 
 header {
     margin-bottom: 40px;
+    margin-top: 15px;
 }
 
 .logo {
@@ -30,6 +33,7 @@ h1 {
     font-size: 3em;
     float: inherit;
     padding-top: 45px;
+    color: black;
     
 }
 
@@ -43,20 +47,104 @@ h1 {
 
 h2 {
     font-size: 1.8em;
+    color: black
 }
+
+a:link {
+    text-decoration: none;
+}
+
 
 
 .menubtn {
     margin-bottom: 1em;
+    text-decoration: none;
 }
 
 .menubtn:hover {
     transform: scale(1.2)
 }
 
+
+
 .tekstboks {
     width: 70%;
     height: 50em;
     float: right;
     font-size: 1em;
+}
+
+
+/* Team rubrik */
+
+.imgcontainer {
+    position: relative;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    clear: left;
+    
+}
+
+.imgcontainer2 {
+    position: relative;
+    width: 40%;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    clear: right;
+    
+}
+
+.imgportrait {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+/*
+.imgbox {
+    width: 35%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.imgbox2 {
+    width: 35%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.containertekst {
+    position: relative;
+    text-align: center;
+    border: solid;
+    
+}
+
+.navne {
+ position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
